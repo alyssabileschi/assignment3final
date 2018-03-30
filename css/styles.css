@@ -30,8 +30,8 @@ ul {
 
 a {
     color: #000;
-    font-size: 1.2em;
-    transition: background-color .3s, color .3s;
+    font-size: 1.5em;
+    transition: background-color .5s, color .5s;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -45,8 +45,8 @@ ul {
 }
 
 .logo {
-    padding: .5em;
-    height: 5em;
+    padding: .6em;
+    height: 6em;
 }
 
 header {
@@ -84,8 +84,8 @@ main {
 .hero-text h1 {
     background-color:#ffffff;
     text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 15px;
     font-size: 3em;
     margin-bottom: none;
@@ -125,10 +125,11 @@ blockquote {
     margin-bottom: 30px;
 }
 
-.photo-about {
-    flex: 2;
+#naztag {
+    
+   flex: 2;
     flex-direction: row;
-     margin-left: 40px;
+    margin-left: 40px;
     margin-right: 40px;
-     margin-bottom: 30px;
+    margin-bottom: 30px; 
 }
