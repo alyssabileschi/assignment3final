@@ -4,7 +4,7 @@
 }
 
 html {
-    color: #000
+    color: #000;
 }
 
 body {
@@ -46,7 +46,7 @@ ul {
 
 .logo {
     padding: .6em;
-    height: 6em;
+    height: 4em;
 }
 
 header {
@@ -88,12 +88,10 @@ main {
     margin-right: 50px;
     border-radius: 15px;
     font-size: 3em;
-    margin-bottom: none;
 }
 
 .hero-text ul {
     font-size: 3em;
-    margin-bottom: none;
 }
 
 .hero-text ul {
@@ -120,7 +118,8 @@ blockquote {
 .photo {
     margin-left: 40px;
     margin-right: 40px;
-    display: flex
+    display: flex;
+    flex-direction: column;
     flex: 2;
     margin-bottom: 30px;
 }
